@@ -4,15 +4,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
         <nav className="nav">
-          <img src="../images/ironhack-logo.svg" className="ironhack-logo" alt="ironhack logo" />
-          <img src="../images/menu-top.svg" className="menu-img" alt="menu"/>
+          <img src="../images/ironhack-logo.svg" className="nav-img" alt="ironhack logo" />
+          <img src="../images/menu-top.svg" className="nav-img" alt="menu"/>
         </nav>
-        <h1 className="header-title">Say hello to ReactJS</h1>
-        <p className="header-text">You will learn how to use the most popular frotend library, and become a super Ninja developer</p>
-        <a href="" className="header-btn">Awesome!</a>
+        <div className="header-main">
+          <h1 className="header-title">Say hello to ReactJS</h1>
+          <p className="header-text">You will learn how to use the most popular frotend library, and become a super Ninja developer.</p>
+          <a href="" className="header-btn">Awesome!</a>
+        </div>
       </header>
+
       <section className="column-section">
         <ul className="column-list">
           <li className="column-item">
@@ -37,6 +41,7 @@ function App() {
           </li>
         </ul>
       </section>
+
     </div>
   );
 }
